@@ -1,0 +1,21 @@
+.wrapper {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+.wrapper button {
+  padding: 0.75em 1.5em;
+  background-color: var(--purple);
+  border: none;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 0.25em;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  cursor: pointer;
+}
+.wrapper button,
+.wrapper button:focus {
+  outline: none;
+}
