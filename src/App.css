@@ -1,13 +1,1 @@
-body {
-  --fm-sans: "Noto Sans", sans-serif;
-  --white: #ffffff;
-  --blue: #4b7be5;
-  --purple: #a85cf9;
-  --cold: #5534a5;
-  --teal: #6fdfdf;
 
-  font-family: var(--fm-sans);
-}
-.App {
-  text-align: center;
-}
