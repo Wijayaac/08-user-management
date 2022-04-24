@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
 
-import Modal from "./components/UI/Modal";
 import AddUser from "./components/Users/AddUser";
 import UserList from "./components/Users/UserList";
 
@@ -15,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <AddUser onAddUser={addUserHandler} />
       {users.length > 0 && <UserList users={users} />}
     </div>

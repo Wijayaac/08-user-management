@@ -14,7 +14,6 @@ body {
   background-color: var(--cold);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.app {
+  margin-top: 2rem;
 }
